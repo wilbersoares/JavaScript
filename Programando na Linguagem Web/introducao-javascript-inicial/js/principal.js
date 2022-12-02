@@ -19,13 +19,13 @@ var alturaEValida = true;
 
 
 //Validador de altura
-if (peso < 0 || peso > 300) {
+if (peso <= 0 || peso >= 300) {
     console.log("Peso inválido!");
     pesoEValido = false;
     tdImc.textContent = "Peso inválido!";
 }
 
-if (altura < 0 || altura > 2.50) {
+if (altura <= 0 || altura >= 2.50) {
     console.log("Altura inválida!");
     alturaEValida = false;
     tdImc.textContent = "Altura inválida!";
