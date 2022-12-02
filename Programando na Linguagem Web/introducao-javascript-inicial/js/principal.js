@@ -2,7 +2,12 @@ var titulo = document.querySelector(".titulo");
 titulo.textContent = "Acne System";
 
 //Busca do Dom(Documento HTML)
-var paciente = document.querySelector("#Primeiro-Paciente");
+var pacientes = document.querySelectorAll(".paciente");
+
+for (var i = 0; i < pacientes.length; i++){
+
+//Declaracao de variavel para paciente
+var paciente = pacientes[i];
 
 //Busca Peso
 var tdpeso = paciente.querySelector(".info-peso");
@@ -34,7 +39,9 @@ if (altura <= 0 || altura >= 2.50) {
 //calculo IMC
 if (alturaEValida && pesoEValido) {
     var imc = peso / (altura * altura);
-    tdImc.textContent = imc;
+    tdImc.textContent = imc.toFixed();
+}
+    
 }
 
 
