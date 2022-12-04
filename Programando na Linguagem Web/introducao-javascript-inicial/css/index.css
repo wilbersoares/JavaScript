@@ -1,6 +1,5 @@
 *{
-	box-sizing: border-box;
- }
+	box-sizing: border-box; }
 
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -131,4 +130,10 @@ button[disabled=disabled], button:disabled {
 
 .campo-invalido{
 	border: 1px solid red;
+}
+
+
+.paciente-invalido{
+	font-weight: bold;
+	background-color: lightcoral;
 }
