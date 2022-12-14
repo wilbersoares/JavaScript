@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: rgb(221, 19, 19);
+    height: 2em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1em;
+}
+
+header h2 {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+section {
+    margin: 2em 0;
+    overflow: hidden;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    display: block;
+}
